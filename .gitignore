@@ -1,19 +1,30 @@
 # Dependencies
 node_modules/
 
-# Environment files ONLY 
-config/.env.dev
-config/.env.*
+# Environment files
 .env
 .env.*
+*.env
+!.env.example
+
+# Config directory (except multer)
+config/.env.dev
+config/.env.prod
+config/.env.*
+config/.env.example
 
 # Uploads
 uploads/
 
 # Logs
+logs/
 *.log
 npm-debug.log*
 
 # OS
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -8,7 +8,7 @@ import {
 } from "./file.service.js";
 import { protect, adminOnly } from "../../middleware/auth.middleware.js";
 import { pathValidationMiddleware } from "../../middleware/pathValidator.js";
-import upload from "../../config/multer.js";
+import upload from "../../../config/multer.js";
 
 const fileController = Router();
 
