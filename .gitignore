@@ -1,6 +1,19 @@
+# Dependencies
 node_modules/
-config/
+
+# Environment files ONLY 
+config/.env.dev
+config/.env.*
 .env
+.env.*
+
+# Uploads
 uploads/
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS
 .DS_Store
+Thumbs.db
